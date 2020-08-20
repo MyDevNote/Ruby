@@ -3,7 +3,6 @@
 source "https://rubygems.org"
 
 gem 'capybara'
-gem 'capybara'
 
 gem 'cucumber'
 gem 'faker'
@@ -13,11 +12,11 @@ gem 'pry-byebug'
 gem 'rspec'
 
 gem 'selenium-webdriver'
-
+gem 'rubocop'
 gem 'mime-types'
 gem 'webdrivers'
 
-# gem 'guard'
-# gem 'guard-rspec
+gem 'guard'
+gem 'guard-rspec'
 
-# gem "rails" 
+gem 'rails'
