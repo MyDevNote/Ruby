@@ -11,7 +11,7 @@ new_array = array.map do |a| #cada um dos valores da minha variável array.map e
 end
 
 puts "\n Array Original"
-puts "#{array}"
+puts "#{array}" #O map pode ser mostrado na tela
 
 puts "\n Novo Array"
 puts "#{new_array}"

@@ -19,7 +19,7 @@
 
 estrelas = ['Sol', 'Aldebaran', 'Miro', 'Gloxinia', 'Sagitari']
 
-estrela = 'Sirius'
+estrelas.insert(2,'Sirius')
 
 estrela = 3
 estrelas.each do |estrela|
@@ -28,8 +28,8 @@ end
 #Each não altera o array que foi passado exemplo estrelas.each
 #E também vale lembrar que o each não retorna nada se tentarmos 
 #salvar o bloco em uma variavel, diferente do map que veremos a seguir.
-# #a = numbers.each { |number| puts number * 2 } 
-# puts a 
+# #a = numbers.each { |number| puts number * 2 }
+# puts a
 # => [1, 2, 3, 4, 5]
 # O each entre todos os métodos que iremos ver a seguir é o único que não pertence ao modulo Enumerable, e o que isso significa?
 # Enumerable é um modulo no ruby, que traz junto com ele varios métodos, como podemos ver a seguir:

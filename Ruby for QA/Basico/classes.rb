@@ -20,19 +20,14 @@ end
 
 civic = Carro.new # essa intância da acesso à classe Carro
 
-puts civic.class
+civic.ligar
+
+mazda = Carro.new
+
+mazda.ligar
+mazda.desligar
 
 
-civic.nome = 'Civic'
-civic.marca = 'Honda'
-civic.cor = 'Escarlate'
-
-
-puts civic.ligar
-puts civic.nome
-puts civic.marca
-puts civic.cor
-puts civic.desligar
 
 
 

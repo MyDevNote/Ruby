@@ -1,9 +1,9 @@
 
 
-carro =  Hash[nome: 'Civic', marca: 'Honda', cor: 'Vermelho']
+civic =  Hash[nome: 'Civic', marca: 'Honda', cor: 'Vermelho']
 
-puts carro
+puts civic
 
-carro[:modelo] = 'Sedan'
+civic[:modelo] = 'Sedan' # adicionando uma nova hash ao var carro
 
 
