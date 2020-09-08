@@ -26,5 +26,6 @@ RSpec.configure do |config|
 end
 
 Capybara.configure do |config|
-  config.default_driver = :selenium #se quiser trabalhar com chrome deixe :selenium_chrome se firefox deixe :selenium
+  config.default_driver = :selenium_chrome #se quiser trabalhar com chrome deixe :selenium_chrome se firefox deixe :selenium
+  config.default_max_wait_time = 5 #configuração de timeout
 end
